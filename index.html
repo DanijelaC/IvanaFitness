@@ -190,10 +190,22 @@ $(document).ready(function() {
        
     <!-- pocetak sekcije sa video pozadinom videoback - bitan je id na ovoj sekciji, kao i id na video delu ispod -->
 	      
-       <?php
-	   include_once 'includes/videoback.php';
-	   ?>
-		 
+       <section id="videoback" class="negativ">
+        <video autoplay loop poster="keep_running/Keep_Running.jpg" id="bgvid">
+            <source src="keep_running/Keep_Running.mp4" type="video/mp4" />
+            <source src="keep_running/Keep_Running.webm" type="video/webm" />
+        </video>
+     
+
+
+<!-- sadrzaj koji ide preko videa -->
+        <div class="wrapper">
+        	
+        	<h2>"Sa nama je uvek bolje"</h2>
+        	<p>-- U zdravom telu zdrav duh --</p>
+		</div>
+   </section>
+			   
 		   <footer id="footer" class="negativ">
     	<p>Copyright &copy; 2017 DC</p>
 		
